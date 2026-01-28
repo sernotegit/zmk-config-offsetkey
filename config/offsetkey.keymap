@@ -62,6 +62,13 @@
             tapping-term-ms = <200>;
             quick-tap-ms = <180>;
         };
+
+        wheel: wheel {
+            compatible = "zmk,behavior-sensor-rotate-var";
+            label = "WHEEL";
+            #sensor-binding-cells = <2>;
+            bindings = <&msc>, <&msc>;
+        };
     };
 
     combos {
@@ -87,7 +94,7 @@
             >;
 
             label = "layer0";
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&wheel SCRL_UP SCRL_DOWN>;
         };
 
         layer_1 {
