@@ -113,6 +113,16 @@
             bindings = <&kp LC(V)>;
             key-positions = <50 51>;
         };
+
+        reset {
+            bindings = <&bootloader>;
+            key-positions = <0 1 2>;
+        };
+
+        reset {
+            bindings = <&bootloader>;
+            key-positions = <14 12 13>;
+        };
     };
 
     keymap {
