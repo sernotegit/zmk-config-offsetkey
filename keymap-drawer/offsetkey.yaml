@@ -345,8 +345,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [0, 1]
-  k: $$mdi:progress-download$$
 - p: [34, 35]
   k: $$mdi:apple-keyboard-option$$
 - p: [18, 19]
