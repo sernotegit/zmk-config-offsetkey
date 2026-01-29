@@ -28,7 +28,6 @@
 };
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 1 8>; };
-
 &msc_input_listener { input-processors = <&zip_scroll_scaler 1 1>; };
 
 &msc {
@@ -69,6 +68,18 @@
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
         };
+
+
+        as: auto_shift {
+            compatible = "zmk,behavior-hold-tap";
+            label = "AUTO_SHIFT";
+            #binding-cells = <2>;
+            tapping-term-ms = <175>;      // 대문자/기호로 전환되는 시간 (취향에 따라 150~200 사이 조절)
+            quick-tap-ms = <150>;         // 연타 시 대문자 방지
+            flavor = "tap-preferred";
+            bindings = <&kp>, <&kp>;
+        };
+
     };
 
     combos {
