@@ -1,5 +1,5 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 100    // 10
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 300  // 600
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20    // 10
 #define BASE 0
 #define LOWER 1
 #define MOUSE_KEYS 2
@@ -29,7 +29,7 @@
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 1 16>; };
 
-&msc_input_listener { input-processors = <&zip_scroll_scaler 1 1>; };
+&msc_input_listener { input-processors = <&zip_scroll_scaler 10 1>; };
 
 &msc {
     acceleration-exponent = <0>;      // 0
@@ -48,7 +48,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-        tap-ms = <120>;
+        tap-ms = <30>;
         label = "scroll";
     };
 
