@@ -669,10 +669,10 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
 <use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
 </g>
-<g transform="translate(518, 56)" class="key keypos-75">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:arrow-up-bold" xlink:href="#mdi:arrow-up-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-up-bold"/>
+<g transform="translate(518, 56)" class="key enter keypos-75">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key enter side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key enter"/>
+<use href="#mdi:keyboard-return" xlink:href="#mdi:keyboard-return" x="-9" y="-13" height="18" width="18.0" class="key enter tap glyph mdi:keyboard-return"/>
 </g>
 <g transform="translate(462, 112)" class="key keypos-76">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -682,7 +682,7 @@ rect.held, rect.combo.held {
 <g transform="translate(574, 112)" class="key keypos-77">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<use href="#mdi:arrow-right-bold" xlink:href="#mdi:arrow-right-bold" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:arrow-right-bold"/>
+<use href="#mdi:keyboard-space" xlink:href="#mdi:keyboard-space" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:keyboard-space"/>
 </g>
 <g transform="translate(518, 168)" class="key keypos-78">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -730,6 +730,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="182" y="71" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="187" y="75" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="168" y="183" width="28" height="26" class="combo"/>
+<text x="182" y="196" class="combo tap">Ctl+X</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="224" y="183" width="28" height="26" class="combo"/>
+<text x="238" y="196" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="280" y="183" width="28" height="26" class="combo"/>
+<text x="294" y="196" class="combo tap">Ctl+V</text>
 </g>
 </g>
 </g>
@@ -1179,6 +1191,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="182" y="71" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="187" y="75" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="168" y="183" width="28" height="26" class="combo"/>
+<text x="182" y="196" class="combo tap">Ctl+X</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="224" y="183" width="28" height="26" class="combo"/>
+<text x="238" y="196" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="280" y="183" width="28" height="26" class="combo"/>
+<text x="294" y="196" class="combo tap">Ctl+V</text>
 </g>
 </g>
 </g>
@@ -1638,6 +1662,18 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="182" y="71" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="187" y="75" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
 </g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="168" y="183" width="28" height="26" class="combo"/>
+<text x="182" y="196" class="combo tap">Ctl+X</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="224" y="183" width="28" height="26" class="combo"/>
+<text x="238" y="196" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="280" y="183" width="28" height="26" class="combo"/>
+<text x="294" y="196" class="combo tap">Ctl+V</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1008)" class="layer-layer3">
@@ -2079,6 +2115,18 @@ rect.held, rect.combo.held {
 <g class="combo combopos-2">
 <rect rx="6" ry="6" x="182" y="71" width="28" height="26" class="combo"/>
 <use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="187" y="75" height="18" width="18.0" class="combo tap glyph mdi:apple-keyboard-caps"/>
+</g>
+<g class="combo combopos-3">
+<rect rx="6" ry="6" x="168" y="183" width="28" height="26" class="combo"/>
+<text x="182" y="196" class="combo tap">Ctl+X</text>
+</g>
+<g class="combo combopos-4">
+<rect rx="6" ry="6" x="224" y="183" width="28" height="26" class="combo"/>
+<text x="238" y="196" class="combo tap">Ctl+C</text>
+</g>
+<g class="combo combopos-5">
+<rect rx="6" ry="6" x="280" y="183" width="28" height="26" class="combo"/>
+<text x="294" y="196" class="combo tap">Ctl+V</text>
 </g>
 </g>
 </g>

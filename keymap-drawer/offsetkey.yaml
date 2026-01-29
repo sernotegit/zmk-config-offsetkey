@@ -76,9 +76,9 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:keyboard-space$$
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
@@ -351,3 +351,9 @@ combos:
   k: $$mdi:apple-keyboard-option$$
 - p: [18, 19]
   k: $$mdi:apple-keyboard-caps$$
+- p: [48, 49]
+  k: Ctl+X
+- p: [49, 50]
+  k: Ctl+C
+- p: [50, 51]
+  k: Ctl+V
