@@ -84,11 +84,6 @@
     combos {
         compatible = "zmk,combos";
 
-        flash {
-            bindings = <&bootloader>;
-            key-positions = <0 1>;
-        };
-
         ralt {
             bindings = <&kp RALT>;
             key-positions = <34 35>;
@@ -114,12 +109,12 @@
             key-positions = <50 51>;
         };
 
-        reset {
+        reset_left {
             bindings = <&bootloader>;
             key-positions = <0 1 2>;
         };
 
-        reset {
+        reset_right {
             bindings = <&bootloader>;
             key-positions = <14 12 13>;
         };
