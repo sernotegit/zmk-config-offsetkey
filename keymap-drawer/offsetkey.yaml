@@ -33,7 +33,7 @@ layers:
   - {t: \, s: '|'}
   - PG UP
   - T
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
   - A
   - S
   - D
