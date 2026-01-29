@@ -1,5 +1,5 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 600  // 600
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 10    // 10
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 50    // 10
 #define BASE 0
 #define LOWER 1
 #define MOUSE_KEYS 2
@@ -48,7 +48,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-        tap-ms = <30>;
+        tap-ms = <120>;
         label = "scroll";
     };
 
