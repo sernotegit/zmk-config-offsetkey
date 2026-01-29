@@ -357,3 +357,7 @@ combos:
   k: Ctl+C
 - p: [50, 51]
   k: Ctl+V
+- p: [0, 1, 2]
+  k: $$mdi:progress-download$$
+- p: [14, 12, 13]
+  k: $$mdi:progress-download$$
