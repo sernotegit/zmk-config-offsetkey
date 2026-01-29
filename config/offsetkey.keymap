@@ -29,7 +29,7 @@
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 1 16>; };
 
-&msc_input_listener { input-processors = <&zip_scroll_scaler 10 1>; };
+&msc_input_listener { input-processors = <&zip_scroll_scaler 1 1>; };
 
 &msc {
     acceleration-exponent = <0>;      // 0
@@ -48,7 +48,7 @@
         #sensor-binding-cells = <0>;
         bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
 
-        tap-ms = <30>;
+        tap-ms = <50>;
         label = "scroll";
     };
 
