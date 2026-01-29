@@ -33,12 +33,12 @@
 
 &msc {
     acceleration-exponent = <0>;      // 0
-    time-to-max-speed-ms = <0>;       // 300
+    time-to-max-speed-ms = <100>;       // 300
     delay-ms = <0>;                   // 0
 };
 
 &mmv {
-    time-to-max-speed-ms = <0>;
+    time-to-max-speed-ms = <100>;
     acceleration-exponent = <1>;
 };
 
@@ -134,7 +134,7 @@
             >;
 
             label = "layer0";
-            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_1 {
