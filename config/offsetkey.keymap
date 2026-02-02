@@ -28,10 +28,6 @@
     };
 };
 
-/* 트랙볼 센서 노드에 직접 CPI(DPI) 값을 박아줍니다. */
-&pmw3610 {
-    cpi = <200>;   /* 200으로 낮춰서 물리적인 속도를 줄임 */
-};
 
 &mmv_input_listener { input-processors = <&zip_xy_scaler 1 64>; };
 
